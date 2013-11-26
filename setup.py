@@ -2,9 +2,8 @@
 # -*- coding: utf-8 -*-
 
 from setuptools import setup, find_packages
-import os
 
-version = '0.1.1'
+version = '0.1.0'
 long_description = '\n'.join([
     open('README.rst').read(),
     open('AUTHORS.rst').read(),
@@ -23,22 +22,21 @@ classifiers = [
 ]
 
 setup(
-    name='pygments-style-solarized',
+    name='pygments-style-jellywrd',
     version=version,
-    description='Pygments version of the Solarized theme.',
+    description='Pygments version of jellywrd Vim colorscheme',
     long_description=long_description,
     classifiers=classifiers,
-    keywords=['pygments', 'style', 'solarized', 'syntax highlighting'],
-    author='Shoji KUMAGAI',
-    author_email='take dot this dot 2 dot your dot grave at gmail dot com',
-    url='https://github.com/shkumagai/pygments-style-solarized',
+    keywords=['pygments', 'style', 'syntax highlighting'],
+    author='Wes Turner',
+    author_email='wes AT AT AT (once) wrd.nu',
+    url='https://github.com/westurner/pygments-style-jellywrd',
     license='MIT',
     packages=find_packages(),
     install_requires=['pygments >= 1.5'],
     entry_points="""
         [pygments.styles]
-        solarizedlight=pygments_style_solarized.light:LightStyle
-        solarizeddark=pygments_style_solarized.dark:DarkStyle
+        jellywrd=pygments_style_jellywrd.jellywrd:JellywrdStyle
     """,
     zip_safe=False,
 )

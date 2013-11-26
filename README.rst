@@ -1,34 +1,32 @@
 Install
 =======
 
-Using PyPI and pip
+Pip
 ------------------
 ::
 
-   $ (sudo) pip install pygments-style-solarized
+   $ pip install -e https://github.com/westurner/pygments-style-jellywrd#pygments-style-jellywrd
 
 Manual
 ------
 ::
 
-   $ git clone git://github.com/shkumagai/pygments-style-solarized
-   $ cd pygments-style-solarized
-   $ (sudo) python setup.py install
+   $ git clone https://github.com/westurner/pygments-style-jellywrd
+   $ cd pygments-style-jellywrd
+   $ python setup.py install
 
 Usage Sample
 ------------
 ::
 
    >>> from pygments.formatter import HtmlFormatter
-   >>> HtmlFormatter(style='solarizedlight').style
-   <class 'pygments_style_solarized.light.LightStyle'>
-   >>> HtmlFormatter(style='solarizeddark').style
-   <class 'pygments_style_solarized.light.DarkStyle'>
+   >>> HtmlFormatter(style='jellywrd').style
+   <class 'pygments_style_jellywrd.jellywrd.JellywrdStyle'>
 
 
 Export the style as CSS
 -----------------------
 ::
 
-   pygmentize -S solarizedlight -f html > solarizedlight.css
+   pygmentize -S jellywrd -f html > jellywrd.css
 
