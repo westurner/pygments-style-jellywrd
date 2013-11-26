@@ -1,3 +1,10 @@
+pygments-style-jellywrd
+========================
+A pygments version of a jellywrd vim color scheme.
+
+Derived from https://github.com/nanotech/jellybeans.vim 
+with https://github.com/honza/vim2pygments 
+
 Install
 =======
 
@@ -28,5 +35,5 @@ Export the style as CSS
 -----------------------
 ::
 
-   pygmentize -S jellywrd -f html > jellywrd.css
+   pygmentize -S jellywrd -f html -a .highlight > jellywrd.css
 
