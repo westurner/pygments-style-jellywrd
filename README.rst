@@ -2,8 +2,13 @@ pygments-style-jellywrd
 ========================
 A pygments version of a jellywrd vim color scheme.
 
-Derived from https://github.com/nanotech/jellybeans.vim 
-with https://github.com/honza/vim2pygments 
+Derivation:
+
+* https://github.com/nanotech/jellybeans.vim
+* https://github.com/westurner/dotvim/blob/f3295fb/vimrc#L395 (`PatchColors`)
+* https://github.com/westurner/vim2vim
+* https://bitbucket.org/birkenfeld/pygments-main/src/default/scripts/vim2pygments.py
+
 
 Install
 =======
