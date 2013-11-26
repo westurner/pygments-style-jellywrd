@@ -17,7 +17,7 @@ Pip
 ------------------
 ::
 
-   $ pip install -e https://github.com/westurner/pygments-style-jellywrd#pygments-style-jellywrd
+   $ pip install -e https://github.com/westurner/pygments-style-jellywrd#egg=pygments-style-jellywrd
 
 Manual
 ------
