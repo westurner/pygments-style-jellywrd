@@ -3,7 +3,7 @@
 
 from setuptools import setup, find_packages
 
-version = '0.1.0'
+version = '0.1.1'
 long_description = '\n'.join([
     open('README.rst').read(),
     open('AUTHORS.rst').read(),
@@ -18,18 +18,18 @@ classifiers = [
     'Operating System :: OS Independent',
     'Programming Language :: Python',
     'Programming Language :: Python :: 2',
-    'Topic :: Software Development :: Libraries :: Python Modules',
 ]
 
 setup(
     name='pygments-style-jellywrd',
     version=version,
-    description='Pygments version of jellywrd Vim colorscheme',
+    description=('Pygments jellywrd style '
+                 '(from vim jellywrd colorscheme via vim2vim)'),
     long_description=long_description,
     classifiers=classifiers,
-    keywords=['pygments', 'style', 'syntax highlighting'],
+    keywords=['pygments', 'style', 'light', 'dark', 'syntax highlighting'],
     author='Wes Turner',
-    author_email='wes AT AT AT (once) wrd.nu',
+    author_email='wes@wrd.nu',
     url='https://github.com/westurner/pygments-style-jellywrd',
     license='MIT',
     packages=find_packages(),
